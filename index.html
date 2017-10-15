@@ -97,8 +97,8 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor pellentesque fringilla. Pellentesque rutrum in erat et lobortis. </p>
           <p>Clinica 1: Rua dos odontologista, 111. São Paulo - CEP: 01500-000</p>
           <p>Clinica 2: Rua C, 222. São Paulo - CEP: 01500-111</p>
-          <p>Telefone: (11) 3744-0000 | (11) 3744-1111 </p>
-          <p>email: sorria@clinica.com</p>
+          <p>Telefone: <a>(11) 3744-0000</a> | <a>(11) 3744-1111</a> </p>
+          <p>email: <a>sorria@clinica.com</a></p>
         </div>
 
         <div id="map" class="col-md-6"></div>
@@ -186,7 +186,7 @@
       function initMap() {
         var uluru = {lat: -23.543, lng: -46.632};
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
+          zoom: 15,
           center: uluru
         });
         var marker = new google.maps.Marker({

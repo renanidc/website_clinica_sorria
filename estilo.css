@@ -37,14 +37,19 @@ h1{
 	margin-top: 50px;
 }
 
-.endereco{
+.home h1{
 	margin-top: 30px;
 }
 
+.endereco{
+	margin-top: 40px;
+}
+
 footer{
-	background-color: #92D050;
+	height: 70px;
+	background-color: rgb(52, 82, 54);
 	margin-top: 70px;
-	padding:5px;
+	padding-top: 1%; 
 }
 
 footer.clear{
@@ -52,7 +57,6 @@ footer.clear{
 }
 
 footer p{
-	margin:0px;	
 	color: #fff;
 	text-align: center;
 	line-height: 1;
@@ -76,13 +80,19 @@ footer p{
 }
 
 .logo{
-	width: 150px;
+	width: 120px;
 	position: absolute;
-	top:1px;
+	top:6px;
 }
 
 #map {
 	height: 400px;
+}
+
+.menu{
+	position: fixed;
+	width: 100%;
+	z-index: 1;
 }
 
 .navbar{
@@ -111,10 +121,10 @@ footer p{
   background-color: #000;
 }
 
-.menu{
-	position: fixed;
-	width: 100%;
-	z-index: 1;
+p{
+	font-size: 18px;
+	text-align: justify;
+	margin-right: 2%;
 }
 
 .texto-galeria{
@@ -124,4 +134,17 @@ footer p{
 
 .texto-fale-conosco{
 	padding-left: 5%;
+}
+
+/*****Media queries*****/
+
+@media only screen and (max-width : 992px) {
+	
+	footer{
+		padding-top: 3%; 
+	}
+
+	p{
+		font-size: 14px;
+	}
 }
